@@ -1,0 +1,18 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# This is Jeff's awesome website
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+You can do everything.
+This website is an example from [P8105](https://p8105.com/making_websites.html) . We are making websites today! Learn more about this [here](about.html)
+I also use [Google](https://www.google.com/).
+To show that you can use rmarkdown to see the page with plots on it [here](plots.html).
+Here's a picture of Ted.<img src="images/image.jpg" style="width:75%"> 
