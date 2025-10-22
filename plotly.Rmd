@@ -1,0 +1,43 @@
+---
+title: "plotly"
+author: "Khue Nguyen"
+date: "2025-10-22"
+output: html_document
+---
+
+```{r, message=FALSE}
+library(tidyverse)
+library(plotly)
+library(p8105.datasets)
+```
+
+Let's load the dataset
+```{r}
+data("nyc_airbnb")
+nyc_airbnb =
+  nyc_airbnb |>
+  mutate (
+    rating = review_scores_location/2
+  )|>
+  select(
+    neighbourhood_group, neighbourhood, rating, price,
+    room_type, lat, long
+  )|>
+  filter(neighbourhood_group == "Manhattan",
+room_type == "Entire home/apt",
+price <= 500,
+price >= 100)
+```
+Let's make scatterplot
+
+```{r}
+nyc_airbnb |>
+  mutate(
+    label = str_c("Price: $", price, "Rating: ", rating)
+  )|>
+  plot_ly(
+    x = ~lat, y = ~ long, color = ~price,
+    type = "scatter", mode = "markers", alpha = 0.5
+  )
+```
+
