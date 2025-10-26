@@ -9,6 +9,8 @@ navbar:
       href: plots.html
     - text: "Plotly Plots"
       href: plotly.html
+    - text: "Selected Publications"
+      href: publication.html
     - icon: fa-solid fa-face-smile
       href: mailto:<nnk2114@columbia.edu>
     - icon: fa-github fa-lg
