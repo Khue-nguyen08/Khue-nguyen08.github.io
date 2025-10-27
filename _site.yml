@@ -1,14 +1,12 @@
-name: "Yay internet!"
+name: " "
 output_dir: "."
 navbar:
   title: "Home"
   right:
     - text: "About"
       href: about.html
-    - text: "Plots"
-      href: plots.html
-    - text: "Plotly Plots"
-      href: plotly.html
+    - text: "Instarcart"
+      href: instacart.html
     - text: "Resume"
       href: resume.html
     - icon: fa-solid fa-face-smile
