@@ -16,6 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 <center> *Tel: (845) 365-8397 Email: nnk2114@columbia.edu* </center>
 
 <br>
+
 #### PROFESSIONAL EXPERIENCE 
 
 + <p align = "text-align: left;"> Lab Manager - Staff Associate III, Lamont Doherty Earth Observatory, Columbia University <span style  = "float: right;"> 2019 – Present </span> </p>

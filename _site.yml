@@ -9,10 +9,10 @@ navbar:
       href: plots.html
     - text: "Plotly Plots"
       href: plotly.html
-    - text: "Selected Publications"
-      href: publication.html
+    - text: "Resume"
+      href: resume.html
     - icon: fa-solid fa-face-smile
-      href: mailto:<nnk2114@columbia.edu>
+      href: https://www.linkedin.com/feed/
     - icon: fa-github fa-lg
       href: https://github.com/Khue-nguyen08/
 output:

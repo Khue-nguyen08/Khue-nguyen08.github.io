@@ -1,0 +1,54 @@
+---
+title: "Instacart"
+output: html_document
+
+---
+
+```{r,include=FALSE, message=FALSE}
+library(tidyverse)
+library(plotly)
+library(p8105.datasets)
+data("instacart")
+```
+
+Let's load the dataset
+```{r}
+# make a plot that show number of items
+instacart_plot =
+  instacart |>
+  group_by(aisle) |>
+  summarize(count = n()) |>
+  filter(count> 10000) |>
+   mutate(
+    aisle = factor(aisle),
+    aisle = fct_reorder(aisle, count)
+  ) |>
+  ggplot (aes(x = aisle, y = count, fill = aisle)) +
+  geom_bar( stat = "identity", alpha = 0.8, show.legend = FALSE) +
+  theme(axis.text.x   = element_text(angle = 45, vjust = 0.5, hjust = 1)) 
+instacart_plot
+```
+
+```{r}
+# plotly, order frequency and number of items in an order
+instacart |>
+	# for each order id
+	group_by(order_id)|>
+	# get number of items in each order
+	mutate(items_ordered = n()) |>
+	# get distinct combination, already group by order_id
+	distinct(items_ordered, days_since_prior_order) |>
+	# plot the boxplot
+	plot_ly(x = ~as.factor(days_since_prior_order),
+					y = ~log(items_ordered, 2),
+					type = "box") |>
+	
+  # change axis titles
+	layout(
+				 xaxis = list(title = "Days since prior order (Day)"),
+				 yaxis = list(title = "log-2 transformed order size")
+				 )
+
+```
+
+
