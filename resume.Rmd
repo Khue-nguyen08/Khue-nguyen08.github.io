@@ -1,0 +1,102 @@
+---
+title: ""
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<center><h3> Khue Nguyen, MS </h3></center>
+
+<center> *61 Route 9W, Palisades, NY, 10964* </center>
+
+<center> *Tel: (845) 365-8397 Email: nnk2114@columbia.edu* </center>
+
+<br>
+#### PROFESSIONAL EXPERIENCE 
+
++ <p align = "text-align: left;"> Lab Manager - Staff Associate III, Lamont Doherty Earth Observatory, Columbia University <span style  = "float: right;"> 2019 – Present </span> </p>
++ <p align = "text-align: left;"> Lab Manager - Research Staff, Department of Environmental Sciences, Barnard College <span style  = "float: right;"> 2013 – 2016 </span> </p>
++ <p align = "text-align: left;"> Intern, PureEarth (Blacksmith Institute) <span style  = "float: right;"> 2015 – 2016 </span> </p>
++ <p align = "text-align: left;"> Research Staff, Research Center for Environmental Technology and Sustainable Development (CETASD), Vienam National University <span style  = "float: right;"> 2010 – 2013 </span> </p>
+
+#### EDUCATION 
+
++ <p align = "text-align: left;"> M.S, Biostatistics – Columbia University <span style  = "float: right;"> 2024 - 2027 (expected) </span> </p>
+
++ <p align = "text-align: left;"> M.S.P.H, Environmental and Occupational Health Sciences – CUNY School of Public Health <span style  = "float: right;"> 2015 – 2017 </span> </p>
+
++ <p align = "text-align: left;"> B.S, Environmental Technology – Vietnam National University  <span style  = "float: right;"> 2005 – 2009 </span> </p>
+
+<br>
+
+#### RESEARCH PROJECTS
+
++ **LEGACY GIRLS STUDY** 
+
+  *Short description*: This was a five year cohort study following 1040 girls and their parent to collect information on progession of growth and development, diet and lifestyle factors.
+  *Roles*:I developed high-through put analytical method to process and quantify urinary OH-PAH effectively in more than one thousand urine samples. I also processed the data, published a method paper and also edited other manuscripts in this projects. [3,4,5]
+  
++ **TAMPON STUDY**
+
+  *Short description*: The project focused on quantifying the chemicals in tampons including metals, bisphenols, parabens and PFASs.
+
+  *Roles*: I developed method for quantifying bisphenols and parabens in tampons. I also participated in discussion and reviewed, edited mannuscipt about heavy metals in tampon. [1] I am finalizing a manuscript of organic contaminant presence in tampons. 
+
++ **ALS STUDY** 
+
+  *Short description*: Study biomarkers that link to Amyotropic lateral sclerosis disease.  
+
+  *Roles*: Developed and executed methods for sample extraction and instrumental analysis to quantify organophosphate pesticide in more than 500 hair samples. I also published a method paper in this project. [2]
+
+<br>
+
+#### SKILLS
+
++ **Analytical Chemistry**: LC- FLD, LC-MS/MS, Stimulated Raman Scattering (SRS), Scanning Electron Microscopy (SEM), Flame atomic absorption spectroscopy (FAAS), Ion exchange Chromatography (IC), Total Organic Carbon (TOC), UV/Vis spectroscopy, quality assurance and quality control protocols and analytical electrodes pH, DO, EC.
+
++ **Industrial Hygiene**: Field portable direct measurement instrumentation, indoor and outdoor air sampling and analysis, mold sampling, X-Ray fluorescence(XRF) analysis, fume hood performance qualitative testing, anemometer usage, noise testing and calculation, protective equipment selections, qualitative and quantitative fit-testing. 
+
++ **Software**: Microsoft Office(Word, Excel, PowerPoint), Canva, R. 
+
+<br>
+
+
+#### AWARDS 
+
++ <p align = "text-align: left;"> DANIDA Arsenic Research Scholarship Awardee  <span style  = "float: right;"> 2010 – 2011 </span> </p>
+
++ <p align = "text-align: left;"> NIOSH Training Grant Awardee <span style  = "float: right;"> 2011 – 2012 </span> </p>
+
+<br>
+
+#### PUBLICATIONS
+1. Jenni A. Shearston; Milo Gordon; Vivian Do; Kristen Upson; Olgica Balac;**Khue Nguyen**; Beizhan Yan; Marianthi-Anna Kioumourtzoglou; Kathrin Schilling, “Tampons as a Source of Exposure to Metal(loid)”, Environmental Health Perspective. 
+
+2. **Nguyen, K.**, Saxena, R., Re D.B., Yan, B., “Rapid LC-MS/MS quantification of Organophosphate non-specific metabolites in hair using alkaline extraction approach”, Journal of Chromatography B.
+3. John, E.M., Keegan, T.H., Terry, M.B., Koo, J., Ingles, S.A., Nguyen, J.T, Thomsen, C., Santella, R.M., **Nguyen, K.**, Yan, B., “Urinary Biomarkers of Polycyclic Aromatic Hydrocarbons and timing of pubertal development: The California PAH study”, Epidemiology. 
+
+
+4. **Nguyen, K.**, Pitirangon, M., Wu, H., John, E., Santella, R.M., Terry, M.B., Yan, B., Improvement on recovery and reproducibility for quantifying urinary mono-hydroxylated polycyclic aromatic hydrocarbons (OH-PAHs), Journal of Chromatography B.
+
+5. John, E., Koo, J., Ingles, S.A, Keegan, T.H., Nguyen, J.T., Thomsen, C., Terry, M.B., Santella, R.M., **Nguyen, K.**, Yan, B., Predictors of urinary polycyclic aromatic hydrocarbon metabolites in girls from the San Francisco Bay Area, Environmental Research. 
+
+
+6. Nghiem A., Shen, Y., Stahl M.,Sun J., Haque E.,, DeYoung B.,**Nguyen K.**,, Tran M., Pham T., Pham V., Mailloux, M., Harvey C.,van Geen L.,, Bostick B., “Upscaling in-situ sediment iron reduction observations to classify arsenic-susceptible aquifers”, Proceedings of the National Academy of Sciences.
+
+7. Mailloux, M., Kim, C., Kichuk, T., **Nguyen, K.**, Precht, C.,Wang, S. , Jewell, T. ,Karaoz, U., Brodie, E., Williams, K. , Beller, H. , Buchholz, B.,“Paired RNA Radiocarbon and Sequencing Analyses Indicate the Importance of Autotrophy in a Shallow Alluvial Aquifer”, Scientific Report.
+
+8. **Nguyen, K.**, Bostick, B., Pavilonis, B.,“Lead in New York City residential soils and its links with the rate of childhood elevated Blood lead level”, Poster at NY/NJ ERC 38th annual conference, 2017 and AIHce 2017 Seattle , Washington
+
+Go back to the [homepage](index.html).
+
+ 
+
+
+
+
+
+
