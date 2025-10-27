@@ -7,6 +7,9 @@ output:
     theme: cerulean
 ---
 
-I am intersted in Environmental Health and Occupational Health sciences. I currently work at [Lamont Doherty Earth Observatory](https://lamont.columbia.edu/) as a lab manager of the [Trace Organic lab (TraceOrg)](https://www.publichealth.columbia.edu/research/centers/niehs-center-environmental-health-northern-manhattan/facility-cores/translational-research-support-core). 
-Our lab research projects include annalytical chemical method developments to quantify organic pollutants and biomarkers (pesticides, PAHs, BPA, Parabens)  and micro and nano-plastic quantification in various environmental samples (snow, sand, water) and biological samples (blood and tissues). 
+I am intersted in Environmental Health and Occupational Health sciences. 
+I currently work at [Lamont Doherty Earth Observatory](https://lamont.columbia.edu/).
+As a lab manager of the [Trace Organic lab (TraceOrg)](https://www.publichealth.columbia.edu/research/centers/niehs-center-environmental-health-northern-manhattan/facility-cores/translational-research-support-core), 
+I actively participated in many research projects include annalytical chemical method developments to quantify organic pollutants and biomarkers (pesticides, PAHs, BPA, Parabens)  and micro and nano-plastic quantification in various environmental samples (snow, sand, water) and biological samples (blood and tissues). 
+
 
