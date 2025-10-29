@@ -34,7 +34,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <br>
 
-#### RESEARCH PROJECTS
+#### SELECT PROJECTS
 
 + **LEGACY GIRLS STUDY** 
 
