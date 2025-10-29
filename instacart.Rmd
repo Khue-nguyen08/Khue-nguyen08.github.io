@@ -1,24 +1,26 @@
 ---
 title: "Instacart"
-output: html_document
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 
 ---
 
 ```{r,include=FALSE, message=FALSE}
+library(flexdashboard)
+library(plotly)
 library(tidyverse)
 library(plotly)
 library(p8105.datasets)
 data("instacart")
-knitr::opts_chunk$set(
-	echo = TRUE,
-	warning = FALSE,
-  fig.width = 6,
-  fig.asp = .6,
-  out.width = "90%"
-)
+dow_labels <- c("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat")
 ```
 
-A barplot that show number of items ordered more than 10000.
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### 1. Barchart : the number of items ordered in each aisle (more than 10000 items ordered)
 ```{r, warning=FALSE}
 # make a plot that show number of items
 instacart_plot =
@@ -38,7 +40,10 @@ instacart_plot =
 instacart_plot
 ```
 
-A boxplot to show the frequency and number of items in an order
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### 2. Box plot :Frequency and number of items in an order
 
 ```{r}
 # plotly, order frequency and number of items in an order
@@ -56,7 +61,7 @@ instacart |>
 
 ```
 
-A scatterplot shows the typical time and day of the week that items get ordered more than 5000.
+### 3.  scatterplot shows the typical time and day of the week that items get ordered more than 5000.
 
 ```{r, warning=FALSE}
 instacart |>
