@@ -16,7 +16,6 @@ library(p8105.datasets)
 data("instacart")
 dow_labels <- c("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat")
 ```
-
 Column {data-width=650}
 -----------------------------------------------------------------------
 
@@ -61,6 +60,7 @@ instacart |>
 
 ```
 
+-----------------------------------------------------------------------
 ### 3.  scatterplot shows the typical time and day of the week that items get ordered more than 5000.
 
 ```{r, warning=FALSE}
