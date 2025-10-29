@@ -15,8 +15,12 @@ output:
 
 <br>
 * I am Khue Nguyen *
+
 <br>
 * If you want to say my name out loud, try this: K-way Win * 
+
+<br>
+
 
 ### Connect 
 
@@ -24,7 +28,8 @@ Here is my [LinkedIn](https://www.linkedin.com/in/khue-n-72420b141/)
 
 ### Data 
 
-Take a look at the data [instacart](instacart.html).
+Take a look at the data [instacart](instacart.html). 
+
 
 ### Github
 

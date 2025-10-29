@@ -9,10 +9,17 @@ library(tidyverse)
 library(plotly)
 library(p8105.datasets)
 data("instacart")
+knitr::opts_chunk$set(
+	echo = TRUE,
+	warning = FALSE,
+  fig.width = 6,
+  fig.asp = .6,
+  out.width = "90%"
+)
 ```
 
-Let's load the dataset
-```{r}
+A barplot that show number of items ordered more than 10000.
+```{r, warning=FALSE}
 # make a plot that show number of items
 instacart_plot =
   instacart |>
@@ -23,32 +30,47 @@ instacart_plot =
     aisle = factor(aisle),
     aisle = fct_reorder(aisle, count)
   ) |>
-  ggplot (aes(x = aisle, y = count, fill = aisle)) +
-  geom_bar( stat = "identity", alpha = 0.8, show.legend = FALSE) +
-  theme(axis.text.x   = element_text(angle = 45, vjust = 0.5, hjust = 1)) 
+  	plot_ly(x = ~aisle,
+					y = ~count,
+					color = ~aisle,
+					type = "bar") 
+  
 instacart_plot
 ```
+
+A boxplot to show the frequency and number of items in an order
 
 ```{r}
 # plotly, order frequency and number of items in an order
 instacart |>
-	# for each order id
 	group_by(order_id)|>
-	# get number of items in each order
 	mutate(items_ordered = n()) |>
-	# get distinct combination, already group by order_id
 	distinct(items_ordered, days_since_prior_order) |>
-	# plot the boxplot
 	plot_ly(x = ~as.factor(days_since_prior_order),
-					y = ~log(items_ordered, 2),
+					y = ~log(items_ordered),
 					type = "box") |>
-	
-  # change axis titles
 	layout(
 				 xaxis = list(title = "Days since prior order (Day)"),
-				 yaxis = list(title = "log-2 transformed order size")
+				 yaxis = list(title = "Log (order size)")
 				 )
 
+```
+
+A scatterplot shows the typical time and day of the week that items get ordered more than 5000.
+
+```{r, warning=FALSE}
+instacart |>
+   group_by(aisle, order_dow) |>
+  summarize(count = n(),
+            mean_hour = mean(order_hour_of_day, na.rm = TRUE), .groups = "drop")  |>
+  filter(count> 5000) |>
+    plot_ly(
+    x = ~order_dow,
+    y = ~mean_hour,
+    color = ~ aisle,
+    type = "scatter",
+    mode = "lines+markers+text"
+      )
 ```
 
 Go back to the [homepage](index.html).
