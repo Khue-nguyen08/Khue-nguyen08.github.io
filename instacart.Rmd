@@ -14,7 +14,7 @@ library(tidyverse)
 library(plotly)
 library(p8105.datasets)
 data("instacart")
-dow_labels <- c("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat")
+
 ```
 Column {data-width=650}
 -----------------------------------------------------------------------
