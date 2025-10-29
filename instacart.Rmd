@@ -7,7 +7,7 @@ output:
 
 ---
 
-```{r,include=FALSE, message=FALSE}
+```{r,include=FALSE}
 library(flexdashboard)
 library(plotly)
 library(tidyverse)
@@ -20,7 +20,7 @@ Column {data-width=650}
 -----------------------------------------------------------------------
 
 ### 1. Barchart : the number of items ordered in each aisle (more than 10000 items ordered)
-```{r, warning=FALSE}
+```{r}
 # make a plot that show number of items
 instacart_plot =
   instacart |>
@@ -63,7 +63,7 @@ instacart |>
 -----------------------------------------------------------------------
 ### 3.  scatterplot shows the typical time and day of the week that items get ordered more than 5000.
 
-```{r, warning=FALSE}
+```{r}
 instacart |>
    group_by(aisle, order_dow) |>
   summarize(count = n(),
@@ -77,5 +77,10 @@ instacart |>
     mode = "lines+markers+text"
       )
 ```
+
+```{r}
+rmarkdown::render("instacart.Rmd", output_format = "flexdashboard::flex_dashboard")
+```
+
 
 Go back to the [homepage](index.html).
