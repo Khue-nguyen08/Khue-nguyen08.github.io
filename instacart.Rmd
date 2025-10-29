@@ -78,9 +78,5 @@ instacart |>
       )
 ```
 
-```{r}
-rmarkdown::render("instacart.Rmd", output_format = "flexdashboard::flex_dashboard")
-```
-
 
 Go back to the [homepage](index.html).
